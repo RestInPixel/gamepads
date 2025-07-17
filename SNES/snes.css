@@ -1,5 +1,5 @@
 .controller.custom{
-    background: url(snes.svg);
+    background: url(svg/snes.svg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
     width: 970px;
@@ -8,7 +8,7 @@
     margin-top: -212px;
 }
 .custom.disconnected {
-    background: url(snes.svg);
+    background: url(svg/snes.svg);
     background-position: 0px -424px;
     background-repeat: no-repeat;
 }
@@ -61,7 +61,7 @@
     transform: rotate(90deg);
 }
 .custom .face.pressed{
-    background: url(snes.svg);
+    background: url(svg/snes.svg);
     background-position-x: -1323px;
 }
 
@@ -75,7 +75,7 @@
 .custom .bumper{
     width: 211px;
     height: 34px;
-    background: url(snes.svg);
+    background: url(svg/snes.svg);
     background-position: -967px 0px;
     background-repeat: no-repeat;
     opacity: 0;
@@ -104,7 +104,7 @@
     height: 61.5px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background: url(snes.svg);
+    background: url(svg/snes.svg);
     background-position: -1177.5px 0px;
 }
 .custom .back{
@@ -127,7 +127,7 @@
     height:75px;
 }
 .custom .button.pressed{
-    background: url(snes.svg);
+    background: url(svg/snes.svg);
     background-position-x: -1249px;
 }
 .custom .b{

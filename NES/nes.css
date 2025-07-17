@@ -1,0 +1,119 @@
+.controller.custom{
+        background: url(nes-assets/base.png);
+    height: 526px;
+    width: 1043px;
+}
+.custom.disconnected {
+      background: url(nes-assets/base_dc.png);
+}
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .arrows{
+    position: absolute;
+    width: 187px;
+    height: 66px;
+    top: 306px;
+    left: 387px;
+}
+
+.custom .back, .custom .start{
+    background: url(nes-assets/Menus.png);
+    width: 1px;
+    height: 65px;
+}
+.custom .back.pressed, .custom .start.pressed{
+    background-position-y: -98px;
+}
+.custom .back{
+  position: absolute;
+  width: 100px;
+  top: 6px;
+  left: -29px;
+}
+.custom .start{
+  position: absolute;
+  width: 100px;
+  top: 6px;
+  left: 119px;
+}
+
+.custom .abxy{
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    top: 190px;
+    left: 685px;
+}
+
+.custom .button{
+    position: absolute;
+    width:99px;
+    height:99px;
+    background: url(nes-assets/HighlightButton_R.png);
+     opacity: 0;
+}
+.custom .button.pressed{
+    opacity: 1;
+}
+.custom .a{
+    top: 100px;
+    left: -1px;
+}
+.custom .b{
+    top: 100px;
+    left: 133px;
+}
+.custom .x{
+  top: -30px;
+  left: -1px;
+}
+.custom .y{
+    top: -30px;
+    left: 133px;
+}
+
+.custom .dpad{
+    position: absolute;
+    width: 140px;
+    height: 132px;
+    top: 202px;
+    left: 85px;
+}
+.custom .face{
+    background: url(nes-assets/dpad.png);
+    position: absolute;
+    opacity: 0;
+}
+
+.custom .face.up{
+    width: 39px;
+    height: 39px;
+    left: 69px;
+    top: 2px;
+    background-position-x: -42px;
+}
+.custom .face.down{
+    width: 39px;
+    height: 39px;
+    left: 69px;
+    top: 135px;
+    background-position-x: -84px;
+}
+.custom .face.left{
+    width: 39px;
+    height: 39px;
+    top: 68px;
+    left: 3px;
+}
+.custom .face.right{
+    width: 39px;
+    height: 39px;
+    top: 68px;
+    left: 134px;
+    background-position-x: -126px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}

@@ -51,11 +51,11 @@
     position: absolute;
     width:99px;
     height:99px;
-    background: url(nes-assets/HighlightButton_W.png);
+    background: url(nes-assets/HighlightButton_B.png);
      opacity: 0;
 }
 .custom .button.pressed{
-    opacity: 0.75;
+    opacity: 1;
 }
 .custom .a{
     top: 100px;
